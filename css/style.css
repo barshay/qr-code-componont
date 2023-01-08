@@ -7,9 +7,13 @@
     color: hsl(228, 45%, 44%);
 }
 
+.sr-only {
+    display: none;
+}
+
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     display: flex;
